@@ -32,7 +32,7 @@ let levels = {
                     position: {
                         x:595, 
                         y: 270,},
-                    imageSrc: './img/doorOpen.png',
+                    imageSrc: './img/doors/doorPrincessRoomOpening.png',
                     frameRate: 5,
                     frameBuffer: 5,
                     loop: false, //loop just once
