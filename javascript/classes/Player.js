@@ -7,7 +7,7 @@ class Player extends Sprite { //let us use the Sprite drawing method
             animations,
             loop,}) { 
         super({imageSrc, frameRate, animations, loop}) //calls Sprite constructor
-        this.position = { x: 200, y: 200} //defined start-point
+        this.position = { x: 0, y: 0} //defined start-point > standard > changes every room
         this.velocity = {x: 0, y: 0} //player velocity down and sideways
         this.sides = {
             bottom: this.position.y + this.height, //underside Player

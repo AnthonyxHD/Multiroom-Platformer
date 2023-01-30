@@ -5,7 +5,7 @@ class CollisionBlock {
         this.width = 64 //defined CollisionBlock width
         this.height = 64 //defined CollisionBlock height
     };
-    draw() { //collisionblocks looks - method
+    draw() { //collisionblocks looks - helps the controlling
         c.fillStyle = 'rgba(255, 0, 0, 0.5)'
         c.fillRect(this.position.x, this.position.y, this.width, this.height)
     };

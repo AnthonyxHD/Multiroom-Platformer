@@ -16,20 +16,23 @@ let levels = {
             //create: collission-arrays level 1
             collisionBlocks = parsedCollissions.createObjectsFrom2D();
             player.collisionBlocks = collisionBlocks
+            //changes player position
+            player.position.x = 125
+            player.position.y = 320
             //allows to move
             if (player.currentAnimation) player.currentAnimation.isActive = false
             //create: sprite level 1
             background = new Sprite ({ //object for Sprite
                 position: {x: 0, y: 0}, //position
-                imageSrc: './img/backgroundLevel1.png' //img path
+                imageSrc: './img//rooms/princessRoom.png' //img path
             });
             //create: doors level 1
             doors = [
                 new Sprite({
                     position: {
-                        x:767, 
+                        x:595, 
                         y: 270,},
-                    imageSrc: './img/doorOpen.png',
+                    imageSrc: './img/doors/doorPrincessRoomOpening.png',
                     frameRate: 5,
                     frameBuffer: 5,
                     loop: false, //loop just once
