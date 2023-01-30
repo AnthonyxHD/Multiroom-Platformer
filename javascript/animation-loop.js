@@ -17,7 +17,7 @@ let levels = {
             collisionBlocks = parsedCollissions.createObjectsFrom2D();
             player.collisionBlocks = collisionBlocks
             //changes player position
-            player.position.x = 100
+            player.position.x = 125
             player.position.y = 320
             //allows to move
             if (player.currentAnimation) player.currentAnimation.isActive = false
